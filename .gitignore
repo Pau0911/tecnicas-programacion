@@ -1,1 +1,11 @@
 herencia/.idea
+# Ignore Maven build output
+target/
+
+# Ignore IDE files
+.idea/
+*.iml
+*.class
+
+# Ignore OS files
+.DS_Store
