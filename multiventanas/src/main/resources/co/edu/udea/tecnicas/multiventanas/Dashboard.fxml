@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="co.edu.udea.tecnicas.multiventanas.DashboardController">
+    <Label text="Ventana Principal (Dashboard)"/>
+    <Button text="Abrir Configuración" onAction="#onAbrirConfiguracion"/>
+    <Button text="Cerrar Sesión" onAction="#onCerrarSesion"/>
+</VBox>

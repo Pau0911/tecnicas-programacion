@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="co.edu.udea.tecnicas.mvc.contact.controller.ContactController"
+      alignment="CENTER" spacing="10" style="-fx-padding: 15;">
+
+    <Label text="Gestor de Contactos " style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+
+    <TextField fx:id="nameField" promptText="Nombre" />
+    <TextField fx:id="phoneField" promptText="Teléfono" />
+
+    <HBox spacing="10">
+        <Button text="Agregar" onAction="#onAddContact" />
+        <Button text="Mostrar Todos" onAction="#onShowContacts" />
+        <Button text="Limpiar" onAction="#onClearList" />
+    </HBox>
+
+    <ListView fx:id="contactList" prefHeight="200" prefWidth="250" />
+</VBox>
